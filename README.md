@@ -1,6 +1,6 @@
 # Bundler::Improvements
 
-The following lines should be added after `Usage` chapter. `Contributing` should be places after `Development`.
+The following lines should be added after `Usage` chapter. `Contributing` should be placed after `Development`.
 
 ## Feedback
 
