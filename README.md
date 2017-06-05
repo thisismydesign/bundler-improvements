@@ -1,6 +1,13 @@
 # Bundler::Improvements
 
-The following lines should be added after `Usage` chapter. `Contributing` should be placed after `Development`.
+[//]: # (Replace all occurrences of 'your_gem')
+
+| Branch | Status |
+| ------ | ------ |
+| Release | [![Build Status](https://travis-ci.org/thisismydesign/your_gem.svg?branch=release)](https://travis-ci.org/thisismydesign/your_gem)   [![Coverage Status](https://coveralls.io/repos/github/thisismydesign/your_gem/badge.svg?branch=release)](https://coveralls.io/github/thisismydesign/your_gem?branch=release)   [![Gem Version](https://badge.fury.io/rb/your_gem.svg)](https://badge.fury.io/rb/your_gem)   [![Total Downloads](http://ruby-gem-downloads-badge.herokuapp.com/your_gem?type=total)](https://rubygems.org/gems/your_gem) |
+| Development | [![Build Status](https://travis-ci.org/thisismydesign/your_gem.svg?branch=master)](https://travis-ci.org/thisismydesign/your_gem)   [![Coverage Status](https://coveralls.io/repos/github/thisismydesign/your_gem/badge.svg?branch=master)](https://coveralls.io/github/thisismydesign/your_gem?branch=master) |
+
+[//]: # (The following lines should be added after `Usage` chapter. `Contributing` should be placed after `Development`.)
 
 ## Feedback
 
