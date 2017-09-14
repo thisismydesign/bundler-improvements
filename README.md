@@ -19,6 +19,8 @@ List of changes and explanations (not complete):
   - adds dev dependencies
   - removes TODOs
   - adds auhtor and email
+- `Guardfile`
+  - adds rspec and bundler guards
 
 [//]: # (Replace all occurrences of 'your_gem')
 
