@@ -21,6 +21,8 @@ List of changes and explanations (not complete):
   - adds auhtor and email
 - `Guardfile`
   - adds rspec and bundler guards
+- `.gitignore`
+  - adds ignore for idea files, private notes and environments
 
 [//]: # (Replace all occurrences of 'your_gem')
 

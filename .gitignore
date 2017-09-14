@@ -1,0 +1,5 @@
+# Add the following lines
+
+PRIVATE_NOTES
+.env.*.local
+.idea/
