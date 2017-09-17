@@ -1,5 +1,7 @@
 # The following lines should be added after `require "bundler/setup"`
 
+require 'simplecov'
+SimpleCov.add_filter ['spec']
 require "coveralls"
 Coveralls.wear!
 
