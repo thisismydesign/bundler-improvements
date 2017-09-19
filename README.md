@@ -52,6 +52,7 @@ This gem is developed using the following conventions:
 - [RubyGems' guide on gem naming](http://guides.rubygems.org/name-your-gem/)
 - [RFC memo about key words used to Indicate Requirement Levels](https://tools.ietf.org/html/rfc2119)
 - [Bundler improvements](https://github.com/thisismydesign/bundler-improvements)
+- [Minimal dependencies](http://www.mikeperham.com/2016/02/09/kill-your-dependencies/)
 
 ## Contributing
 
