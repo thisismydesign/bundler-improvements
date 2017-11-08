@@ -2,7 +2,8 @@ guard 'bundler' do
   watch('Gemfile')
 end
 
-guard 'rspec', cmd: "bundle exec spring rspec #{ENV['FOCUS']}", all_after_pass: ENV['FOCUS'].nil? do
+rspec_prefix = File.file?('bin/spring') ? 'bundle exec spring' : 'bundle exec'
+guard 'rspec', cmd: "#{rspec_prefix} rspec #{ENV['FOCUS']}", all_after_pass: ENV['FOCUS'].nil? do
   watch(%r{^spec/.+_spec\.rb$})
   watch(%r{^lib/(.+)\.rb$})                           { |m| "spec/lib/#{m[1]}_spec.rb" }
   watch('spec/spec_helper.rb')                        { 'spec' }
