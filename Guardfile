@@ -4,10 +4,9 @@ end
 
 rspec_prefix = File.file?('bin/spring') ? 'bundle exec spring' : 'bundle exec'
 guard 'rspec', cmd: "#{rspec_prefix} rspec #{ENV['FOCUS']}", all_after_pass: ENV['FOCUS'].nil? do
-  watch(%r{^spec/.+_spec\.rb$})
+  watch(%r{^spec/(.+)_spec\.rb$})
   watch(%r{^lib/(.+)\.rb$})                           { |m| "spec/lib/#{m[1]}_spec.rb" }
-  watch('spec/spec_helper.rb')                        { 'spec' }
-  watch('spec/rails_helper.rb')                       { 'spec' }
+  watch(%r{^spec/(.+)_helper.rb})                     { 'spec' }
 
   watch(%r{^app/(.+)\.rb$})                           { |m| "spec/#{m[1]}_spec.rb" }
   watch(%r{^app/(.*)(\.erb|\.haml)$})                 { |m| "spec/#{m[1]}#{m[2]}_spec.rb" }
