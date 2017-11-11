@@ -1,5 +1,11 @@
-# Add the following lines
+/.bundle/
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
 
-PRIVATE_NOTES
-.env.*.local
-.idea/
+# rspec failure tracking
+.rspec_status

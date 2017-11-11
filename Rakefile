@@ -1,9 +1,6 @@
-# The following lines should be added and `yourgem` should be replaced
-# Default 'task' should be overwritten
+require "bundler/gem_tasks"
+require "rspec/core/rake_task"
 
-desc "Check if source can be required locally"
-task :require do
-  sh "ruby -e \"require '#{File.dirname __FILE__}/lib/yourgem'\""
-end
+RSpec::Core::RakeTask.new(:spec)
 
-task :default => [:require, :spec]
+task :default => :spec

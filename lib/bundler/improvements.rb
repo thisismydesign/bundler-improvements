@@ -1,3 +1,7 @@
-# The first line should be changed
+require "bundler/improvements/version"
 
-require_relative "yourgem"
+module Bundler
+  module Improvements
+    # Your code goes here...
+  end
+end
