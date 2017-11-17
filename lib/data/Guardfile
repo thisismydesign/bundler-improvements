@@ -2,6 +2,11 @@ guard 'bundler' do
   watch('Gemfile')
 end
 
+guard :rubocop, cli: '--auto-correct' do
+  watch(%r{.+\.rb$})
+  watch(%r{(?:.+/)?\.rubocop(?:_todo)?\.yml$}) { |m| File.dirname(m[0]) }
+end
+
 rspec_prefix = File.file?('bin/spring') ? 'bundle exec spring' : 'bundle exec'
 guard 'rspec', cmd: "#{rspec_prefix} rspec #{ENV['FOCUS']}", all_after_pass: ENV['FOCUS'].nil? do
   watch(%r{^spec/(.+)_spec\.rb$})
