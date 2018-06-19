@@ -1,6 +1,6 @@
 # Bundler::Improvements
 
-Files under [lib/data](lib/data) contain extensions / modifications to files created by the `bundle gem` command. Each file contains information on how to apply these changes.
+Files under [lib/data](lib/data) contain opinionated extensions / modifications to files created by the `bundle gem` command. Each file contains information on how to apply these changes.
 
 List of changes and explanations (not complete):
 - `README.MD`
