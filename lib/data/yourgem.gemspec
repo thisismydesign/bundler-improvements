@@ -18,4 +18,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "autowow"
   spec.add_development_dependency "rubocop"
   spec.add_development_dependency "rubocop-rspec"
+  spec.add_development_dependency "autowow", ">= 0.12.1"
 end
