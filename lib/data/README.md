@@ -1,4 +1,12 @@
-[//]: # (Replace all occurrences of 'your_gem' and '[USERNAME]')
+[//]: # (Replace all occurrences of 'your_gem', 'your_gem_desription' and '[USERNAME]')
+
+# your_gem
+
+#### your_gem_desription
+
+<!--- Version informartion -->
+*You are viewing the README of the development version. There are no releases yet.
+<!--- Version informartion end -->
 
 | Branch | Status |
 | ------ | ------ |
