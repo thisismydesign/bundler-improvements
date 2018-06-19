@@ -8,6 +8,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = ""
   spec.homepage      = ""
+  spec.license       = "MIT"
 
   spec.add_development_dependency "coveralls"
   spec.add_development_dependency "guard"
