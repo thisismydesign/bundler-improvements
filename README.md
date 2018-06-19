@@ -1,38 +1,34 @@
 # Bundler::Improvements
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/bundler/improvements`. To experiment with that code, run `bin/console` for an interactive prompt.
+Files under [lib/data](lib/data) contain extensions / modifications to files created by the `bundle gem` command. Each file contains information on how to apply these changes.
 
-TODO: Delete this and the text above, and describe your gem
+List of changes and explanations (not complete):
+- `README.MD`
+  - adds `release` and `development` badges
+  - adds feedback and conventions chapters
+- `lib/bundlerimprovements.rb` (generally `lib/namespaces/gem_name.rb`)
+  - replaces `require` with `require_relative`
+    - [it is O(1)](http://www.rubydoc.info/github/rspec/rspec-support/RSpec%2FSupport.define_optimized_require_for_rspec)
+    - gem can now be required from source
+- `Rakefile`
+  - Adds test to 'Check if source can be required locally'
+- `spec/spec_helper.rb`
+  - adds `RSPEC_ROOT`
+  - adds `Coveralls`
+- `yourgem.gemspec`
+  - adds dev dependencies
+  - removes TODOs
+  - adds auhtor, email and license
+- `Guardfile`
+  - adds rspec and bundler guards
+- `.gitignore`
+  - adds ignore for idea files, private notes and environments
 
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'bundler-improvements'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install bundler-improvements
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+It is planned to implement these in form of generators in the future.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/bundler-improvements.
+Bug reports and pull requests are welcome on GitHub at https://github.com/thisismydesign/bundler-improvements.
 
 ## License
 
