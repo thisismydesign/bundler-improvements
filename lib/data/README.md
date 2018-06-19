@@ -5,7 +5,7 @@
 #### your_gem_desription
 
 <!--- Version informartion -->
-*You are viewing the README of the development version. There are no releases yet.
+*You are viewing the README of the development version. There are no releases yet.*
 <!--- Version informartion end -->
 
 | Branch | Status |
