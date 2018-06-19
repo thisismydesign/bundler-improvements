@@ -4,7 +4,7 @@
 
 Gem::Specification.new do |spec|
   spec.authors       = ["thisismydesign"]
-  spec.email         = ["thisismydesign@users.noreply.github.com"]
+  spec.email         = ["git.thisismydesign@gmail.com"]
 
   spec.summary       = ""
   spec.homepage      = ""
