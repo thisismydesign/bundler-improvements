@@ -1,4 +1,4 @@
-[//]: # (Replace all occurrences of 'your_gem', 'your_gem_desription' and '[USERNAME]')
+[//]: # (Replace all occurrences of 'your_gem', 'your_gem_desription' and 'your_username' '[USERNAME]')
 
 # your_gem
 
@@ -10,12 +10,10 @@
 
 | Branch | Status |
 | ------ | ------ |
-| Release | [![Build Status](https://travis-ci.org/thisismydesign/your_gem.svg?branch=release)](https://travis-ci.org/thisismydesign/your_gem)   [![Coverage Status](https://coveralls.io/repos/github/thisismydesign/your_gem/badge.svg?branch=release)](https://coveralls.io/github/thisismydesign/your_gem?branch=release)   [![Gem Version](https://badge.fury.io/rb/your_gem.svg)](https://badge.fury.io/rb/your_gem)   [![Total Downloads](http://ruby-gem-downloads-badge.herokuapp.com/your_gem?type=total)](https://rubygems.org/gems/your_gem) |
-| Development | [![Build Status](https://travis-ci.org/thisismydesign/your_gem.svg?branch=master)](https://travis-ci.org/thisismydesign/your_gem)   [![Coverage Status](https://coveralls.io/repos/github/thisismydesign/your_gem/badge.svg?branch=master)](https://coveralls.io/github/thisismydesign/your_gem?branch=master) |
+| Release | [![Build Status](https://travis-ci.org/your_username/your_gem.svg?branch=release)](https://travis-ci.org/your_username/your_gem)   [![Coverage Status](https://coveralls.io/repos/github/your_username/your_gem/badge.svg?branch=release)](https://coveralls.io/github/your_username/your_gem?branch=release)   [![Gem Version](https://badge.fury.io/rb/your_gem.svg)](https://badge.fury.io/rb/your_gem)   [![Total Downloads](http://ruby-gem-downloads-badge.herokuapp.com/your_gem?type=total)](https://rubygems.org/gems/your_gem) |
+| Development | [![Build Status](https://travis-ci.org/your_username/your_gem.svg?branch=master)](https://travis-ci.org/your_username/your_gem)   [![Coverage Status](https://coveralls.io/repos/github/your_username/your_gem/badge.svg?branch=master)](https://coveralls.io/github/your_username/your_gem?branch=master) |
 
 [//]: # (The following lines should be added after `Usage` chapter replacing the rest of default README.)
-[//]: # (Replace all occurrences of '[USERNAME]'.)
-[//]: # (Replace all occurrences of 'your_gem'.)
 
 ## Feedback
 
@@ -36,7 +34,7 @@ This gem is developed using the following conventions:
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/your_gem.
+Bug reports and pull requests are welcome on GitHub at https://github.com/your_username/your_gem.
 
 ## License
 
