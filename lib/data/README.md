@@ -4,6 +4,12 @@
 
 #### your_gem_desription
 
+Status and support
+
+- &#x2714; / &#x2716; stable / not stable
+- &#x2714; / &#x2716; supported / not supported
+- &#x2714; / &#x2716; ongoing development / no ongoing development
+
 <!--- Version informartion -->
 *You are viewing the README of the development version. There are no releases yet.*
 <!--- Version informartion end -->
@@ -15,11 +21,11 @@
 
 [//]: # (The following lines should be added after `Usage` chapter replacing the rest of default README.)
 
-## Feedback
+## Contribution and feedback
 
-Feedback is much appreciated.
+This project is built around known use-cases. If have one that isn't covered don't hesitate to open an issue and start a discussion.
 
-I can only tailor this project to fit use-cases I know about - which are usually my own ones. If you find that this might be the right direction to solve your problem too but you find that it's suboptimal or lacks features don't hesitate to contact me.
+Bug reports and pull requests are welcome on GitHub at https://github.com/your_username/your_gem. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## Conventions
 
@@ -31,10 +37,6 @@ This gem is developed using the following conventions:
 - [RFC memo about key words used to Indicate Requirement Levels](https://tools.ietf.org/html/rfc2119)
 - [Bundler improvements](https://github.com/thisismydesign/bundler-improvements)
 - [Minimal dependencies](http://www.mikeperham.com/2016/02/09/kill-your-dependencies/)
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/your_username/your_gem.
 
 ## License
 
